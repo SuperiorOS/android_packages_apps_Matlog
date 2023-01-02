@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- non-translateable strings-->
     <string name="pref_hide_partial_select_help">pref_hide_partial_select_help</string>
     <string name="pref_ran_jellybean_su_update">jellybean_su</string>
-    <!-- translateable strings-->
     <string name="log_level_debug">Debug</string>
     <string name="log_level_error">Error</string>
     <string name="log_level_info">Info</string>

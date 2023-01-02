@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- non-translateable strings-->
     <string name="pref_hide_partial_select_help">pref_hide_partial_select_help</string>
     <string name="pref_ran_jellybean_su_update">jellybean_su</string>
-    <!-- translateable strings-->
-    <string name="log_level_debug">Hatâ Ayıklama</string>
-    <string name="log_level_error">Hatâ</string>
+    <string name="log_level_debug">Hata ayıklama</string>
+    <string name="log_level_error">Hata</string>
     <string name="log_level_info">Bilgi</string>
-    <string name="log_level_verbose">Teferruat</string>
-    <string name="log_level_warn">Îkâz</string>
-    <string name="log_level_wtf">Sıra Dışı</string>
-    <string name="add_filter">Filtre İlâve Et</string>
-    <string name="add_filter_ellipsis">Filtre İlâve Et…</string>
+    <string name="log_level_verbose">Ayrıntılı</string>
+    <string name="log_level_warn">Uyarı</string>
+    <string name="log_level_wtf">Sıra dışı</string>
+    <string name="add_filter">Filtre ekle</string>
+    <string name="add_filter_ellipsis">Filtre ekle…</string>
     <plurals name="are_you_sure">
-        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silinecektir</item>
-        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silinecektir</item>
+        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silinecek</item>
+        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silinecek</item>
     </plurals>
     <string name="checkbox_never_show_partial_select_help">Tekrar gösterme</string>
     <string name="copied_to_clipboard">Panoya kopyalandı.</string>
     <string name="copy_to_clipboard">Panoya kopyala</string>
     <string name="default_in_parens">(Varsayılan)</string>
     <string name="delete">Sil</string>
-    <string name="delete_all">Hepsini Sil</string>
-    <string name="delete_saved_log">Kaydedilmiş Günlükleri Sil</string>
+    <string name="delete_all">Tümünü sil</string>
+    <string name="delete_saved_log">Kaydedilmiş günlükleri sil</string>
     <string name="dialog_compiling_log">Günlük derleniyor…</string>
     <string name="dialog_initializing_recorder">Kaydedici yükleniyor…</string>
     <string name="dialog_loading_updates">Güncellemeler yükleniyor…</string>
@@ -34,7 +32,7 @@
         <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silindi</item>
         <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> adet dosya silindi</item>
     </plurals>
-    <string name="filter_choice">Arama kıstası</string>
+    <string name="filter_choice">Şuna göre ara</string>
     <string name="filter_choice_pid">İşlem Kimliği</string>
     <string name="filter_choice_tag">Etiket</string>
     <string name="filter_text_colon">Filtre metni:</string>
@@ -43,7 +41,7 @@
     <string name="log_recording_started">Günlük kaydı başlatıldı.</string>
     <string name="log_saved">Günlük kaydedildi.</string>
     <string name="manage_saved_logs">Kaydedilmiş Günlükleri Yönet</string>
-    <string name="menu_title_partial_select">Kısmî Kaydet</string>
+    <string name="menu_title_partial_select">Kısmi Kaydet</string>
     <string name="no_saved_logs">Kaydedilmiş bir günlük bulunmadı.</string>
     <string name="notification_subtext">Durdurmak için seçin.</string>
     <string name="notification_ticker">Günlük kaydı başlatıldı</string>
@@ -53,15 +51,15 @@
     <string name="pref_buffer_choice_events">Olaylar</string>
     <string name="pref_buffer_choice_main">Ana</string>
     <string name="pref_buffer_choice_radio">Radyo</string>
-    <string name="pref_buffer_none_checked_error">Lütfen asgari bir tane ara bellek seçin.</string>
+    <string name="pref_buffer_none_checked_error">Lütfen en az bir arabelleği kontrol edin.</string>
     <string name="pref_buffer_title">Günlük Ara Bellek(ler)i</string>
-    <string name="pref_cat_advanced">İleri Seviye</string>
+    <string name="pref_cat_advanced">Gelişmiş</string>
     <string name="pref_cat_appearance">Görünüm</string>
     <string name="pref_cat_configuration">Yapılandırma</string>
     <string name="pref_default_log_level_summary">Açılış, dosyaları açma ve kayıt esnasındaki günlük seviyesi (%s)</string>
     <string name="pref_default_log_level_title">Varsayılan Günlük Seviyesi</string>
-    <string name="pref_display_limit_summary">OutOfMemoryError hatâlarını önlemek için sadece son %1$d günlüğü göster. (Varsayılan: %2$s)</string>
-    <string name="pref_display_limit_title">Gösterme Sınırı</string>
+    <string name="pref_display_limit_summary">OutOfMemoryError hatalarını önlemek için sadece son %1$d günlüğü göster. (Varsayılan: %2$s)</string>
+    <string name="pref_display_limit_title">Günlük Görüntüleme Sınırı</string>
     <string name="pref_expanded_by_default_summary">Varsayılan olarak bütün günlük metnini göster.</string>
     <string name="pref_expanded_by_default_title">Varsayılan Olarak Genişlet</string>
     <string name="pref_log_line_period_error">Lütfen 1 ve 1000 aralığında bulunan bir tamsayı yazın</string>
@@ -83,7 +81,7 @@
     <string name="subject_log_report">Günlük raporu</string>
     <string name="text_filter_ellipsis">Filtre…</string>
     <string name="text_filter_text">Filtre metni</string>
-    <string name="text_include_device_info">Cihaz bilgisini dâhil et</string>
+    <string name="text_include_device_info">Cihaz bilgisini dahil et</string>
     <string name="text_size_large_name">Büyük (14 nk)</string>
     <string name="text_size_medium_name">Orta (12 nk)</string>
     <string name="text_size_small_name">Küçük (10 nk)</string>
@@ -98,9 +96,9 @@
         <item quantity="one">Günlük çok büyük; son <xliff:g example="1" id="lines">%1$d</xliff:g> satır gösteriliyor.</item>
         <item quantity="other">Günlük çok büyük; son <xliff:g example="1" id="lines">%1$d</xliff:g> satır gösteriliyor.</item>
     </plurals>
-    <string name="toast_pref_changed_restart_required">Ayarlar değiştirildi. Değişikliklerin gözükmesi için MatLog\'u tekrar başlatın.</string>
+    <string name="toast_pref_changed_restart_required">Ayarlar güncellendi. Değişikliklerin gözükmesi için MatLog\'u tekrar başlatın.</string>
     <string name="toast_request_root">MatLog, günlükleri okumak için root (süper kullanıcı) erişimine ihtiyaç duyuyor.</string>
-    <string name="toast_started_select_partial">Kısmî Seçim modu devrede</string>
+    <string name="toast_started_select_partial">Kısmi Seçim modu etkin</string>
     <string name="unable_to_save_log">Günlük kaydedilemedi. Geçerli bir dosya adı yazdınız mı?</string>
     <string name="file">Dosya</string>
     <string name="clear">Temizle</string>
@@ -113,7 +111,7 @@
     <string name="search">Ara</string>
     <string name="scrubber">Hassas bilgileri çıkar</string>
     <string name="scrubber_summary">Web url\'leri, telefon numaraları veya e-postalar gibi hassas bilgileri çıkarın</string>
-    <string name="text_include_dmesg">Kernel günlüğünü dâhil et</string>
+    <string name="text_include_dmesg">Kernel günlüğünü dahil et</string>
     <string name="save_log_zip">Zip olarak kaydet</string>
     <string name="share_log">Paylaş</string>
     <string name="channel_name">Kayıt bildirimi</string>

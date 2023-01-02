@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- non-translateable strings-->
     <string name="pref_hide_partial_select_help">pref_hide_partial_selecione_ajuda</string>
     <string name="pref_ran_jellybean_su_update">jellybean_su</string>
-    <!-- translateable strings-->
     <string name="log_level_debug">Depurar</string>
     <string name="log_level_error">Erro</string>
     <string name="log_level_info">Informação</string>
@@ -13,26 +11,25 @@
     <string name="add_filter">Adicionar Filtro</string>
     <string name="add_filter_ellipsis">Adicionar Filtro</string>
     <plurals name="are_you_sure">
-        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> file will be deleted
-<xliff:g example="1" id="files">%1$d</xliff:g> files will be deleted</item>
+        <item quantity="one">P<xliff:g example="1" id="files">%1$d</xliff:g> arquivo será excluído</item>
         <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> arquivos serão excluídos</item>
     </plurals>
-    <string name="checkbox_never_show_partial_select_help">Não exibir novamente</string>
+    <string name="checkbox_never_show_partial_select_help">Não mostrar novamente</string>
     <string name="copied_to_clipboard">Copiado para a área de transferência.</string>
     <string name="copy_to_clipboard">Copiar para área de transferência</string>
     <string name="default_in_parens">(Padrão)</string>
-    <string name="delete">Apagar</string>
+    <string name="delete">Excluir</string>
     <string name="delete_all">Excluir Tudo</string>
     <string name="delete_saved_log">Excluir Registros Salvos</string>
     <string name="dialog_compiling_log">Compilando log…</string>
     <string name="dialog_initializing_recorder">Carregando o gravador…</string>
     <string name="dialog_loading_updates">Carregando atualizações...</string>
-    <string name="dialog_partial_select_explanation">1. Select the <b>first</b> line.\n2. Then select the <b>last</b> line.</string>
-    <string name="dialog_please_wait">Por favor aguarde</string>
+    <string name="dialog_partial_select_explanation">1. Selecione a <b>primeira</b> linha.\n2. Em seguida, selecione a <b>última linha</b>.</string>
+    <string name="dialog_please_wait">Por favor, aguarde</string>
     <string name="enter_filename">Digite o nome do arquivo para salvar:</string>
     <string name="enter_good_filename">Por favor, insira um nome de usuário válido.</string>
     <plurals name="files_deleted">
-        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> arquivos serão excluídos</item>
+        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> arquivo excluído</item>
         <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> arquivos excluídos</item>
     </plurals>
     <string name="filter_choice">Procurar por </string>
@@ -40,7 +37,7 @@
     <string name="filter_choice_tag">Tag</string>
     <string name="filter_text_colon">Filtrar texto:</string>
     <string name="log_level">Nível de Log</string>
-    <string name="log_level_colon">Nível de log</string>
+    <string name="log_level_colon">Nível de Log:</string>
     <string name="log_recording_started">Gravação de log iniciada.</string>
     <string name="log_saved">Log salvo.</string>
     <string name="manage_saved_logs">Gerenciar logs salvos </string>
@@ -55,15 +52,18 @@
     <string name="pref_buffer_choice_main">Principal</string>
     <string name="pref_buffer_choice_radio">Radio</string>
     <string name="pref_buffer_none_checked_error">Por favor, verifique pelo menos um buffer.</string>
-    <string name="pref_buffer_title">Buffer (s) de log </string>
+    <string name="pref_buffer_title">Log Buffer(s)</string>
     <string name="pref_cat_advanced">Avançado</string>
     <string name="pref_cat_appearance">Aparência</string>
     <string name="pref_cat_configuration">Configuração</string>
+    <string name="pref_default_log_level_summary">Nível de registros na inicialização, ao abrir arquivos e gravações (%s)</string>
     <string name="pref_default_log_level_title">Nível de log padrão</string>
+    <string name="pref_display_limit_summary">Mostrar apenas os últimos %1$d registros, para evitar erros de falta de memória.(Padrão: %2$s)</string>
     <string name="pref_display_limit_title">Limite de exibição de log</string>
     <string name="pref_expanded_by_default_summary">Mostrar texto completo do log por padrão.</string>
     <string name="pref_expanded_by_default_title">Expandir por padrão</string>
     <string name="pref_log_line_period_error">Digite um número inteiro entre 1 e 1000.</string>
+    <string name="pref_log_line_period_summary">Ao gravar, escreva no cartão SD a cada %1$d linha(s) (padrão: %2$s).</string>
     <string name="pref_log_line_period_title">Período de gravação</string>
     <string name="pref_show_timestamp_summary">Mostrar identificação do processo e carimbo de data e hora quando expandido</string>
     <string name="pref_show_timestamp_title">Mostrar Pid &amp; Timestamp</string>
@@ -89,6 +89,7 @@
     <string name="text_size_xsmall_name">Extra Pequeno (8pt)</string>
     <string name="title_filter">Filtro</string>
     <string name="title_filters">Filtros</string>
+    <string name="toast_invalid_display_limit">Por favor, insira um número válido entre %1$d e %2$d.</string>
     <string name="toast_invalid_level">Nome de nível inválido: %s</string>
     <string name="toast_invalid_selection">Seleção inválida. Por favor, tente novamente.</string>
     <plurals name="toast_log_truncated">
@@ -116,4 +117,6 @@
     <string name="channel_name">Gravar notificação </string>
     <string name="message_filters">Clique no filtro para ativar</string>
     <string name="filter_choice_messager">Clique no filtro de pesquisa</string>
+    <string name="widget_status_stopped">Pausado</string>
+    <string name="widget_status_recording">Gravando</string>
 </resources>
