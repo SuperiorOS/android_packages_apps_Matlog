@@ -123,4 +123,6 @@
     <string name="channel_name">Уведомление о записи</string>
     <string name="message_filters">Нажмите на фильтр для активации</string>
     <string name="filter_choice_messager">Нажмите на фильтр поиска</string>
+    <string name="widget_status_stopped">Остановлен</string>
+    <string name="widget_status_recording">Идет запись</string>
 </resources>

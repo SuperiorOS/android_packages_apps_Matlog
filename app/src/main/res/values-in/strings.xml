@@ -11,7 +11,7 @@
     <string name="add_filter">Tambahkan Filter</string>
     <string name="add_filter_ellipsis">Tambahkan Filter...</string>
     <plurals name="are_you_sure">
-        <item quantity="other">&lt;xliff:g example="1" id="files"&gt;berkas akan dihapus </item>
+        <item quantity="other">&lt;xliff:g example=\"1\" id=\"files\"&gt;berkas akan dihapus </item>
     </plurals>
     <string name="checkbox_never_show_partial_select_help">Jangan tampilkan lagi</string>
     <string name="copied_to_clipboard">Disalin ke papan klip.</string>
