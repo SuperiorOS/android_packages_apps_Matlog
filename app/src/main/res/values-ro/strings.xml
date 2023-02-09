@@ -2,49 +2,49 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="pref_hide_partial_select_help">pref_hide_partial_select_help</string>
     <string name="pref_ran_jellybean_su_update">jellybean_su</string>
-    <string name="log_level_debug">Debug</string>
-    <string name="log_level_error">Error</string>
+    <string name="log_level_debug">Depanare</string>
+    <string name="log_level_error">Eroare</string>
     <string name="log_level_info">Info</string>
-    <string name="log_level_verbose">Verbose</string>
-    <string name="log_level_warn">Warn</string>
-    <string name="log_level_wtf">What a Terrible Failure</string>
-    <string name="add_filter">Add Filter</string>
-    <string name="add_filter_ellipsis">Add Filter…</string>
+    <string name="log_level_verbose">Detaliat</string>
+    <string name="log_level_warn">Avertizare</string>
+    <string name="log_level_wtf">Ce eșec terribil</string>
+    <string name="add_filter">Adăugare filtru</string>
+    <string name="add_filter_ellipsis">Adăugare filtru…</string>
     <plurals name="are_you_sure">
-        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> file will be deleted</item>
-        <item quantity="few"><xliff:g example="1" id="files">%1$d</xliff:g> files will be deleted</item>
-        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> files will be deleted</item>
+        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> fișier va fi șters</item>
+        <item quantity="few"><xliff:g example="1" id="files">%1$d</xliff:g> fișiere vor fi șterse</item>
+        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> fișiere vor fi șterse</item>
     </plurals>
-    <string name="checkbox_never_show_partial_select_help">Don\'t show again</string>
-    <string name="copied_to_clipboard">Copied to clipboard.</string>
-    <string name="copy_to_clipboard">Copy to clipboard</string>
-    <string name="default_in_parens">(Default)</string>
-    <string name="delete">Delete</string>
-    <string name="delete_all">Delete All</string>
-    <string name="delete_saved_log">Delete Saved Logs</string>
-    <string name="dialog_compiling_log">Compiling log…</string>
-    <string name="dialog_initializing_recorder">Loading recorder…</string>
-    <string name="dialog_loading_updates">Loading updates…</string>
-    <string name="dialog_partial_select_explanation">1. Select the <b>first</b> line.\n2. Then select the <b>last</b> line.</string>
-    <string name="dialog_please_wait">Please wait</string>
-    <string name="enter_filename">Enter filename to save:</string>
-    <string name="enter_good_filename">Please enter a valid filename.</string>
+    <string name="checkbox_never_show_partial_select_help">Nu arăta din nou</string>
+    <string name="copied_to_clipboard">Copiat în clipboard.</string>
+    <string name="copy_to_clipboard">Copiază în clipboard</string>
+    <string name="default_in_parens">(Implicit)</string>
+    <string name="delete">Ștergere</string>
+    <string name="delete_all">Șterge totul</string>
+    <string name="delete_saved_log">Șterge jurnalele salvate</string>
+    <string name="dialog_compiling_log">Se compune jurnalul…</string>
+    <string name="dialog_initializing_recorder">Se încarcă înregistratorul…</string>
+    <string name="dialog_loading_updates">Se încarcă actualizările…</string>
+    <string name="dialog_partial_select_explanation">1. Selectează <b>prima</b> linie.\n2. Apoi selectează <b>ultima linie</b>.</string>
+    <string name="dialog_please_wait">Așteaptă</string>
+    <string name="enter_filename">Introdu numele fișierului pentru a salva:</string>
+    <string name="enter_good_filename">Introdu un nume de fișier valid.</string>
     <plurals name="files_deleted">
-        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> file be deleted</item>
-        <item quantity="few"><xliff:g example="1" id="files">%1$d</xliff:g> files deleted</item>
-        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> files deleted</item>
+        <item quantity="one"><xliff:g example="1" id="files">%1$d</xliff:g> fișier șters</item>
+        <item quantity="few"><xliff:g example="1" id="files">%1$d</xliff:g> fișiere șterse</item>
+        <item quantity="other"><xliff:g example="1" id="files">%1$d</xliff:g> fișiere șterse</item>
     </plurals>
-    <string name="filter_choice">Search by</string>
+    <string name="filter_choice">Căutare după</string>
     <string name="filter_choice_pid">PID</string>
     <string name="filter_choice_tag">Tag</string>
-    <string name="filter_text_colon">Filter text:</string>
-    <string name="log_level">Log Level</string>
-    <string name="log_level_colon">Log level:</string>
-    <string name="log_recording_started">Log recording started.</string>
-    <string name="log_saved">Log saved.</string>
-    <string name="manage_saved_logs">Manage Saved Logs</string>
-    <string name="menu_title_partial_select">Save Partial</string>
-    <string name="no_saved_logs">No saved logs found.</string>
+    <string name="filter_text_colon">Text filtru:</string>
+    <string name="log_level">Nivel jurnal</string>
+    <string name="log_level_colon">Nivel jurnal:</string>
+    <string name="log_recording_started">Înregistrarea jurnalului a început.</string>
+    <string name="log_saved">Jurnal salvat.</string>
+    <string name="manage_saved_logs">Gestionează jurnalele salvate</string>
+    <string name="menu_title_partial_select">Salvează parțial</string>
+    <string name="no_saved_logs">Nu s-au găsit jurnale salvate.</string>
     <string name="notification_subtext">Select to stop recording.</string>
     <string name="notification_ticker">Log recording started</string>
     <string name="notification_title">Log recording in progress</string>
