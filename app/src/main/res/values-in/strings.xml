@@ -84,31 +84,31 @@
     <string name="text_size_medium_name">Sedang (12pt)</string>
     <string name="text_size_small_name">Kecil (10pt)</string>
     <string name="text_size_xlarge_name">Sangat Besar (16pt)</string>
-    <string name="text_size_xsmall_name">Sangat Kecil (8pt) </string>
+    <string name="text_size_xsmall_name">Sangat Kecil (8pt)</string>
     <string name="title_filter">Saring</string>
     <string name="title_filters">Saring </string>
-    <string name="toast_invalid_display_limit">Harap masukkan nomor yang valid antara%1$ddan%2$d</string>
+    <string name="toast_invalid_display_limit">Harap masukkan nomor yang valid antara %1$d dan %2$d.</string>
     <string name="toast_invalid_level">Nama tingkat tidak valid: %s</string>
-    <string name="toast_invalid_selection">Operasi gagal. Mohon coba lagi.</string>
+    <string name="toast_invalid_selection">Pilihan tidak valid. Silakan coba lagi.</string>
     <plurals name="toast_log_truncated">
-        <item quantity="other">Log terlalu besar; menunjukkan terakhir<xliff:g example="1" id="lines">%1$d</xliff:g>jalur.</item>
+        <item quantity="other">Log terlalu besar; menunjukkan terakhir <xliff:g example="1" id="lines">%1$d</xliff:g> jalur.</item>
     </plurals>
-    <string name="toast_pref_changed_restart_required">Setelan diperbarui. Mulai ulang MatLog untuk melihat perubahannya</string>
-    <string name="toast_request_root">MatLog memerlukan akses akar(root) untuk membaca log.</string>
-    <string name="toast_started_select_partial">Pilih Mode parsial diaktifkan</string>
-    <string name="unable_to_save_log">Tidak dapat menyimpan log. Apakah Anda memasukkan nama berkas yang salah?</string>
-    <string name="file">Berkas</string>
-    <string name="clear">hapus</string>
+    <string name="toast_pref_changed_restart_required">Setelan diperbarui. Mulai ulang MatLog untuk melihat perubahannya.</string>
+    <string name="toast_request_root">MatLog membutuhkan akses root (pengguna super) untuk membaca log.</string>
+    <string name="toast_started_select_partial">Pilih mode sebagian diaktifkan</string>
+    <string name="unable_to_save_log">Tidak dapat menyimpan log. Apakah Anda memasukkan nama file yang valid?</string>
+    <string name="file">File</string>
+    <string name="clear">Bersihkan</string>
     <string name="expand_or_collapse_all">Perluas/Ciutkan semuanya</string>
     <string name="no_logs_warning_title">Tidak dapat mengakses log sistem</string>
-    <string name="no_logs_warning">%1$stidak memiliki izin yang diperlukan untuk mengakses logcat. Anda hanya akan melihat lognya sendiri.&lt;br/&gt;&lt;br/&gt;Anda memiliki dua opsi untuk diberikan %1$s menerima ijin:&lt;br/&gt;- Akar/Root perangkat anda&lt;br/&gt;-Hubungkan perangkat Anda ke komputer dengan Android SDK terpasang dan jalankan perintah berikut (hanya perlu dilakukan sekali):&lt;br/&gt;&lt;tt&gt;%2$s&lt;/tt&gt;</string>
+    <string name="no_logs_warning">%1$s tidak memiliki izin yang diperlukan untuk mengakses logcat. Anda hanya akan melihat lognya sendiri.&lt;br/&gt;&lt;br/&gt;Anda memiliki dua opsi untuk memberikan izin kepada %1$s:&lt;br/&gt;- Root perangkat Anda&lt;br/&gt;- Hubungkan perangkat Anda ke komputer dengan Android SDK terpasang dan jalankan perintah berikut (hanya perlu dilakukan sekali):&lt;br/&gt;&lt;tt&gt;%2$s&lt;/tt&gt;</string>
     <string name="copy_command">Salin perintah</string>
-    <string name="adb_command">ADB Perintah </string>
+    <string name="adb_command">Perintah ADB</string>
     <string name="permission_not_granted">Fitur ini tidak akan berfungsi tanpa izin untuk menulis penyimpanan eksternal.</string>
     <string name="search">Cari</string>
     <string name="scrubber">Abaikan info sensitif</string>
     <string name="scrubber_summary">Abaikan info sensitif seperti alamat web, nomor telepon, atau email</string>
-    <string name="text_include_dmesg">Termasuk log di kernel </string>
+    <string name="text_include_dmesg">Termasuk log kernel</string>
     <string name="save_log_zip">Simpan zip</string>
     <string name="share_log">Bagikan</string>
     <string name="channel_name">Pemberitahuan rekaman</string>
